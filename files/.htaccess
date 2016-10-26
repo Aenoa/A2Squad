@@ -1,0 +1,9 @@
+<files config.inc.php>
+Order Allow,Deny
+Deny from All
+</files>
+
+<files functions.php>
+Order Allow,Deny
+Deny from All
+</files>

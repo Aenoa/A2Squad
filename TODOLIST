@@ -1,0 +1,32 @@
+A2SQUAD TODOLIST
+@Created	28/01/2013 12.17
+@Modified	28/01/2013 14.02
+
+DIR=LIST
+	item=MEMBERS	: TODO
+	item=SQUADS		: DONE
+
+DIR=ADD
+	item=MEMBERS	: TODO
+	item=SQUADS		: TODO
+
+DIR=EDIT
+	item=MEMBERS	: TODO
+	item=SQUADS		: TODO
+
+DIR=MAINTENANCE
+	item=IMPORT		: DONE
+	item=DBCLEANER	: DONE
+	item=SETTINGS	: PROGRESS
+	item=UNINSTALL	: TODO
+
+FILE files/INSTALL.PHP		: TODO
+FILE files/CONFIG.INC.PHP	: DONE
+FILE files/FUNCTIONS.PHP	: DONE
+
+/// TO ADD
+Research function for members / squads (by UID; ID, SQDID, MBR_SQDID)
+
+
+/// TO FIX
+Squad not shown when Empty (Squad List)

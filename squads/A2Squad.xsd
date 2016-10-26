@@ -1,0 +1,26 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="squad">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="name"/>
+        <xs:element type="xs:string" name="email"/>
+        <xs:element type="xs:anyURI" name="web"/>
+        <xs:element type="xs:string" name="picture"/>
+        <xs:element type="xs:string" name="title"/>
+        <xs:element name="member" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="email"/>
+              <xs:element type="xs:string" name="icq"/>
+              <xs:element type="xs:string" name="remark"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="optional"/>
+            <xs:attribute type="xs:string" name="nick" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="nick"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

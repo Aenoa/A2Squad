@@ -1,0 +1,389 @@
+body
+{
+	background: darkseagreen url('images/background.png') repeat fixed;
+	color: white;
+	font-family: serif;
+	width: 980px;
+	margin: auto;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+img
+{
+	text-align: center;
+	margin: auto;
+}
+
+table
+{
+	text-align: center;
+	margin: auto;
+}
+
+th
+{
+	border: azure thin solid;
+	font-size: 14px;
+	color: bisque;
+	font-style: normal;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+td
+{
+	border: azure thin solid;
+	border-top: none;
+	margin-bottom: 3px;
+	height: 23px;
+	font-size: 0.8em;
+}
+
+table[border='0'], table[border='0'] th, table[border='0'] td
+{
+	border: none;
+}
+
+a, a:visited
+{
+	color: wheat;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+td a,td a:visited
+{
+	color: white;
+}
+
+td a:hover
+{
+	color: wheat;
+}
+
+a:hover
+{
+	color: antiquewhite;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: bold;
+}
+
+h1
+{
+	font-size: 18px;
+	color: antiquewhite;
+	text-decoration: underline;
+}
+
+h2
+{
+	font-size: 14px;
+	color: #333333;
+}
+
+h3
+{
+	font-size: 14px;
+	color: navy;
+}
+
+
+h4
+{
+	font-size: 13px;
+	color: navy;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header
+{
+	background: url('images/header.jpg') no-repeat center top;
+	border-radius: 10px;
+	height: 150px;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#global_container
+{
+	clear: both;
+	padding: 15px;
+	border-radius: 3px;
+	border: #333333 thin solid;
+	background: url('images/tainted.png') repeat;
+}
+
+#left_container
+{
+	float: left;
+	clear: left;
+	width:411px;
+	border-radius: 10px;
+	border: #333333 thin solid;
+	background: url('images/tainted.png') repeat;
+	padding: 5px;
+}
+
+#right_container
+{
+	float: right;
+	clear: right;
+	width: 490px;
+	border-radius: 10px;
+	background: url('images/tainted.png') repeat;
+	border: #333333 thin solid;
+	padding: 5px;
+}
+
+#footer
+{
+	clear: both;
+	font-size: 12px;
+	text-align: center;
+	background: url('images/tainted.png') repeat;
+	margin-top: 10px;
+	padding: 10px;
+	color: whitesmoke;
+	border-radius: 10px;
+	border: #333333 thin solid;
+}
+
+#centered
+{
+	text-align: center;
+}
+
+
+#E_Toast
+{
+	width: 686px;
+	color: white;
+	background: url('images/tainted_red.png') repeat;
+	margin: auto;
+	border-radius: 8px;
+	padding-bottom: 5px;
+	border: brown thin;
+	text-align: center;
+}
+
+#E_Toast h1
+{
+	color: red;
+	background-color: black;
+	text-align:center;
+	border-radius: 8px 8px 0px 0px;
+	text-decoration: none;
+}
+
+#V_Toast
+{
+	width: 686px;
+	color: white;
+	background: url('images/tainted_green.png') repeat;
+	margin: auto;
+	border-radius: 8px;
+	padding-bottom: 5px;
+	border: brown thin;
+	text-align: center;
+}
+
+#V_Toast h1
+{
+	color: green;
+	background-color: black;
+	text-align:center;
+	border-radius: 8px 8px 0px 0px;
+	text-decoration: none;
+}
+
+#N_Toast
+{
+	width: 686px;
+	color: white;
+	background: url('images/tainted_blue.png') repeat;
+	margin: auto;
+	border-radius: 8px;
+	padding-bottom: 5px;
+	border: brown thin;
+	text-align: center;
+}
+
+#N_Toast h1
+{
+	color: lightblue;
+	background-color: black;
+	text-align:center;
+	border-radius: 8px 8px 0px 0px;
+	text-decoration: none;
+}
+
+.checkbox{}
+
+.tainted
+{
+	background: url('images/tainted.png') repeat;
+	border-radius: 3px;
+}
+
+.form_url
+{
+	width: 400px;
+}
+
+.left
+{
+	text-align: left;
+}
+
+.top
+{
+	vertical-align: text-top;
+}
+
+.underlined
+{
+	text-decoration: underline;
+}
+
+/* ICONS RELATED */
+
+#icons_container
+{
+	display: inline-block;
+	margin:auto;
+	text-align: center;
+}
+
+.icon
+{
+	float:left;
+	width: 125px;
+	height: 155px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: auto;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 15px; 
+	text-transform:uppercase;
+	color: white;
+	background-position-y: 30px;
+}
+
+.icon:hover
+{
+	color: wheat;
+	text-shadow: 3px;
+}
+
+ /* MEMBERS */
+.memberadd
+{
+	background-image: url('images/icons/memberadd.png');
+}
+
+.memberadd:hover
+{
+	background-image: url('images/icons/memberadd_hover.png');
+}
+
+.memberedit
+{
+	background-image: url('images/icons/memberedit.png');
+}
+
+.memberedit:hover
+{
+	background-image: url('images/icons/memberedit_hover.png');
+}
+
+.memberlist
+{
+	background-image: url('images/icons/memberlist.png');
+}
+
+.memberlist:hover
+{
+	background-image: url('images/icons/memberlist_hover.png');
+}
+
+/* SQUADS */
+
+.squadadd
+{
+	background-image: url('images/icons/squadadd.png');
+}
+
+.squadadd:hover
+{
+	background-image: url('images/icons/squadadd_hover.png');
+}
+
+.squadedit
+{
+	background-image: url('images/icons/squadedit.png');
+}
+
+.squadedit:hover
+{
+	background-image: url('images/icons/squadedit_hover.png');
+}
+
+.squadlist
+{
+	background-image: url('images/icons/squadlist.png');
+}
+
+.squadlist:hover
+{
+	background-image: url('images/icons/squadlist_hover.png');
+}
+
+/* MAINTENANCE */
+
+.import_xml
+{
+	background-image: url('images/icons/import_xml.png');
+}
+
+.import_xml:hover
+{
+	background-image: url('images/icons/import_xml_hover.png');
+}
+
+.dbcleaner
+{
+	background-image: url('images/icons/dbcleaner.png');
+}
+
+.dbcleaner:hover
+{
+	background-image: url('images/icons/dbcleaner_hover.png');
+}
+
+.settings
+{
+	background-image: url('images/icons/passwd.png');
+}
+
+.settings:hover
+{
+	background-image: url('images/icons/passwd_hover.png');
+}
+
+.uninstall
+{
+	background-image: url('images/icons/delete_a2sqd.png');
+}
+
+.uninstall:hover
+{
+	background-image: url('images/icons/delete_a2sqd_hover.png');
+}

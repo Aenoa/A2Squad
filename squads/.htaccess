@@ -1,0 +1,8 @@
+Order Allow,Deny
+Allow from all
+
+Options -indexes
+
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?tid=$1 [L]
+RewriteRule ^uploaded/([a-zA-Z0-9]+)$ uploaded/$1 [L]
